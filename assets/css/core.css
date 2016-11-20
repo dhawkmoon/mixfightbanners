@@ -3307,6 +3307,8 @@ textarea {
 
 .wrapper {
   overflow: hidden;
+  display: block;
+  text-decoration: none;
 }
 
 .slider {
