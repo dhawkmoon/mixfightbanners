@@ -19,7 +19,7 @@
 			&__text{
 				position: relative;
 				z-index: 1;
-				@include animation( fadeIn, .75s, 2s );
+				@include animation( fadeIn, .5s, 1.5s );
 			}
 			&__back{
 				left: 5%;
@@ -27,18 +27,18 @@
 			    position: absolute;
 			    right: 0;
 			    margin: auto;
-			    @include animation( fadeIn, .75s, 1.25s );
+			    @include animation( fadeIn, .5s, 1s );
 			}
 		}
 		&__date{
 			@extend %sprite;
 			top: 19%;
-			@include animation( fadeInRight, .75s, .5s );
+			@include animation( fadeInRight, .5s, .5s );
 		}
 		&__time{
 			@extend %sprite;
 			top: 36%;
-			@include animation( fadeInUp, .75s, 2.75s );
+			@include animation( fadeInUp, .5s, 2s );
 		}
 		.copy{
 			@extend %sprite;
@@ -55,13 +55,13 @@
 			position: relative;
 			height: 150px;
 			&__img{
-				@include animation( fadeIn, .75s, .5s );
+				@include animation( fadeIn, .5s, .5s );
 			}
 			&__text{
 				position: absolute;
 			    top: 25%;
 				right: 17%;
-				@include animation( fadeInRight, .75s, 1.25s );
+				@include animation( fadeInRight, .5s, 1s );
 			}
 		}
 		.fighter-2{
@@ -70,13 +70,13 @@
 			&__img{
 				position: relative;
 				top:-138px;
-				@include animation( fadeIn, .75s, 2s );
+				@include animation( fadeIn, .5s, 1.5s );
 			}
 			&__text{
 				position: absolute;
 				bottom: 10%;
 				left: 7%;
-				@include animation( fadeInLeft, .75s, 2.75s );
+				@include animation( fadeInLeft, .5s, 2s );
 			}
 		}
 		.time{
@@ -88,7 +88,7 @@
 			margin: auto;
 			width: 75%;
 			height: 22%;
-			@include animation( fadeIn, .75s, 4s );
+			@include animation( fadeIn, .5s, 2.5s );
 		}
 	}
 	&-thirdly{
@@ -97,13 +97,13 @@
 			position: relative;
 			height: 150px;
 			&__img{
-				@include animation( fadeIn, .75s, .5s );
+				@include animation( fadeIn, .5s, .5s );
 			}
 			&__text{
 				position: absolute;
 			    top: 25%;
 				right: 17%;
-				@include animation( fadeInRight, .75s, 1.25s );
+				@include animation( fadeInRight, .5s, 1s );
 			}
 		}
 		.fighter-2{
@@ -112,13 +112,13 @@
 			&__img{
 				position: relative;
 				top:-138px;
-				@include animation( fadeIn, .75s, 2s );
+				@include animation( fadeIn, .5s, 1.5s );
 			}
 			&__text{
 				position: absolute;
 				bottom: 10%;
 				left: 7%;
-				@include animation( fadeInLeft, .75s, 2.75s );
+				@include animation( fadeInLeft, .5s, 2s );
 			}
 		}
 		.time{
@@ -130,7 +130,7 @@
 			margin: auto;
 			width: 75%;
 			height: 22%;
-			@include animation( fadeIn, .75s, 4s );
+			@include animation( fadeIn, .5s, 2.5s );
 		}
 	}
 	 
