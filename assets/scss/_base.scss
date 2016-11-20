@@ -1,0 +1,32 @@
+/*
+ * Basic styles
+ */
+.container{
+	width: 230px;
+	height: 300px;
+}
+.wrapper{
+	overflow: hidden;
+}
+.slider{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	max-width: 240px;
+	max-height: 300px;
+	background-color: $bg;
+	img{
+		max-width: 100%;
+	}
+	.age{
+		position: absolute;
+		right:2%;
+		top:1%;
+		text-align: right;
+		z-index: 1;
+		img{
+			width: 70%;
+		    opacity: 0.6;
+		}
+	}
+}

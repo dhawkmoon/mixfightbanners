@@ -1,0 +1,137 @@
+/*
+ * Slides
+ */
+ 
+ %sprite{
+	position: relative;
+	text-align: center;
+ }
+ 
+ .slide{
+	 overflow: hidden;
+	 &-primary{
+		display: none;
+		background-image: url(../img/slide-1-back.jpg);
+		.logo{
+			@extend %sprite;
+			width: 100%;
+			top: 27%;
+			&__text{
+				position: relative;
+				z-index: 1;
+				@include animation( fadeIn, .75s, 2s );
+			}
+			&__back{
+				left: 5%;
+			    top: -20%;
+			    position: absolute;
+			    right: 0;
+			    margin: auto;
+			    @include animation( fadeIn, .75s, 1.25s );
+			}
+		}
+		&__date{
+			@extend %sprite;
+			top: 19%;
+			@include animation( fadeInRight, .75s, .5s );
+		}
+		&__time{
+			@extend %sprite;
+			top: 36%;
+			@include animation( fadeInUp, .75s, 2.75s );
+		}
+		.copy{
+			@extend %sprite;
+			font-family: Arial;
+			font-size: 9px;
+			color: $secondary;
+			top: 47%;
+		}
+		
+	 }
+	&-secondary{
+		display: none;
+		.fighter-1{
+			position: relative;
+			height: 150px;
+			&__img{
+				@include animation( fadeIn, .75s, .5s );
+			}
+			&__text{
+				position: absolute;
+			    top: 25%;
+				right: 17%;
+				@include animation( fadeInRight, .75s, 1.25s );
+			}
+		}
+		.fighter-2{
+			position: relative;
+			height: 150px;
+			&__img{
+				position: relative;
+				top:-138px;
+				@include animation( fadeIn, .75s, 2s );
+			}
+			&__text{
+				position: absolute;
+				bottom: 10%;
+				left: 7%;
+				@include animation( fadeInLeft, .75s, 2.75s );
+			}
+		}
+		.time{
+			position: absolute;
+			left:0;
+			right: 0;
+			top:0;
+			bottom: 0;
+			margin: auto;
+			width: 75%;
+			height: 22%;
+			@include animation( fadeIn, .75s, 4s );
+		}
+	}
+	&-thirdly{
+		display: none;
+		.fighter-1{
+			position: relative;
+			height: 150px;
+			&__img{
+				@include animation( fadeIn, .75s, .5s );
+			}
+			&__text{
+				position: absolute;
+			    top: 25%;
+				right: 17%;
+				@include animation( fadeInRight, .75s, 1.25s );
+			}
+		}
+		.fighter-2{
+			position: relative;
+			height: 150px;
+			&__img{
+				position: relative;
+				top:-138px;
+				@include animation( fadeIn, .75s, 2s );
+			}
+			&__text{
+				position: absolute;
+				bottom: 10%;
+				left: 7%;
+				@include animation( fadeInLeft, .75s, 2.75s );
+			}
+		}
+		.time{
+			position: absolute;
+			left:0;
+			right: 0;
+			top:0;
+			bottom: 0;
+			margin: auto;
+			width: 75%;
+			height: 22%;
+			@include animation( fadeIn, .75s, 4s );
+		}
+	}
+	 
+ }
